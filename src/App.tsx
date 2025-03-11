@@ -1,10 +1,11 @@
 import React from 'react';
-import HelloReact from './components/HelloReact';
+import MainApp from './components/MainApp';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <HelloReact />
+      <div className='topHeader'></div>
+      <MainApp />
     </div>
   );
 };
